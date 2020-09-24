@@ -10,44 +10,52 @@
 
     </head>
     <body>
-        <div class="container">
-            <div class="card center">
-                <div class="card-head">
-                    <h1>Registro de vehiculos</h1>
-                </div>
-                <div class="card-body">
-                    <div class="form-group">
-                        <label>VehiculoId:</label>
-                        <input type="text">
-                        <button>Buscar</button>
+        <div class="main canter-text">
+            <div class="container m-auto">
+                <div class="card shadow-lg border-dark p-5">
+                    <div class="card-title">
+                        <h1>Registro de vehiculos</h1>
                     </div>
-                    <div class="form-group">
-                        <label>Marca:</label>
-                        <input type="text">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>VehiculoId:</label>
+                                <div class="input-group" >
+                                    <input type="number" class="form-control d-inline mr-5" type="text">
+                                    <button class="btn btn-primary d-inline">Buscar</button>
+                                </div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label>Marca:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Modelo:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label type="number">Año:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Chassis:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label type="number">Kilometraje:</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label>Modelo:</label>
-                        <input type="text">
+                    <div class="card-footer text-center">
+                        <button class="btn btn-warning">Nuevo</button>
+                        <button class="btn btn-success">Guardar</button>
+                        <button class="btn btn-danger">Eliminar</button>
                     </div>
-                    <div class="form-group">
-                        <label>Año:</label>
-                        <input type="text">
-                    </div>
-                    <div class="form-group">
-                        <label>Chassis:</label>
-                        <input type="text">
-                    </div>
-                    <div class="form-group">
-                        <label>Kilometraje:</label>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <button>Nuevo</button>
-                    <button>Guardar</button>
-                    <button>Eliminar</button>
                 </div>
             </div>
         </div>
+        
     </body>
 </html>
